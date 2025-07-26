@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Task 1</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html, body {
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background-color: gray;
+      padding: 10px;
+      color: white;
+      min-height: 60px;
+    }
+
+    .main {
+      display: flex;
+      flex: 1;
+    }
+
+    .left {
+      background-color: lightgray;
+      width: 200px;
+      padding: 20px;
+      flex-shrink: 0;
+    }
+
+    .content {
+      background-color: #eee;
+      flex: 1;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .section {
+      background-color: #ccc;
+      padding: 15px;
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      height: 50px;
+    }
+    .img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="/Task1/neede/profilephoto.png" alt="profilephoto" class="img">
+    <p>welcome , Yaqeen </p>
+  </header>
+
+  <div class="main">
+    <div class="left"> </div>
+    
+    <div class="content">
+      <div class="section">first main</div>
+      <div class="section">Second main</div>
+    </div>
+  </div>
+
+  <footer>
+    Footer Text
+  </footer>
+</body>
+</html>
